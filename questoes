@@ -1,0 +1,88 @@
+//questao 2
+int i=5, *p;
+    &i==4094;
+  p = &i;
+  printf("%x %d %d %d %d", p,*p+2,**&p,3**p,**&p+4)
+  61fe1c
+  5
+  15
+  9
+  //questao3
+  000000000000000/0000000000000001/00000000FFFFFFFE/0000000000000003
+  //questao 4
+  a-problema
+  b-nao teve problema
+  c-nao teve problema
+  d-problema
+  e-nao teve problema
+  f-nao teve problema
+  g-problema
+  h-nao teve problema
+  questao 5
+ a- 20
+b- 29.0
+c- P
+d- e
+e- P
+f- e
+g- t
+h- 31
+i- 45
+j- 27
+k- 31
+l-45
+m-45
+questao 6
+contador/valor/valor/endereco/endereco
+i = 0vet[0] = 1.1*(f + 0) = 1.1&vet[0] = 61FDF0(f + 0) = 61FDF0
+i = 1vet[1] = 2.2*(f + 1) = 2.2&vet[1] = 61FDF4(f + 1) = 61FDF4
+i = 2vet[2] = 3.3*(f + 2) = 3.3&vet[2] = 61FDF8(f + 2) = 61FDF8
+i = 3vet[3] = 4.4*(f + 3) = 4.4&vet[3] = 61FDFC(f + 3) = 61FDFC
+i = 4vet[4] = 5.5*(f + 4) = 5.5&vet[4] = 61FE00(f + 4) = 61FE00
+questao 7
+*(pulo + 2);
+questao 8
+a primeira e a ultima estão corretas,porque nao pode incrementar valor do tipo int ao ponteiro.
+questao 9
+4 9 13(primeira)
+61FE10 61FE14 61FE18(segunda)
+questao 10
+char:x+1=4093;x+2=4094;x+3=4095;
+int:x+1=4094;x+2=4096;x+3=4098;
+float:x+1=4096;x+2=409A;x+3=409E;//eu esperava que fosse seguir a mesma logica dos dois primeiros
+double:x+1=409A;x+2=40A2;x+3=40AA;
+questao 11
+a-valido
+b-valido
+c-invalido
+d-valido
+e-valido
+f-invalido
+g-invalido
+h-valido
+questao 12
+int main(void){
+  void testevariavel(int x);
+  void testeponteiro(int *pX);
+  int teste=1;
+  int *pTeste=&teste;
+  testeponteiro(pTeste);
+  printf("%i",teste);
+  getchar();
+  return 0;}
+  void testevariavel(int x){
+  ++x;}
+  void testeponteiro(int*pX){
+  ++*pX;}
+  questao 13
+  
+
+
+
+
+
+
+
+
+
+  
